@@ -18,107 +18,107 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/aysegulbarlas/Thesis Demo
+/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53279
-Successfully changed project path to: /Users/aysegulbarlas/Thesis Demo
-/Users/aysegulbarlas/Thesis Demo
+54217
+Successfully changed project path to: /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo
+/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/aysegulbarlas/Thesis Demo/Assets
+[Subsystems] Discovering subsystems at path /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-07 10:15:18.827 Unity[4960:269197] (null) preferred device: Apple M1 (high power)
-2022-06-07 10:15:18.827 Unity[4960:269197] Metal devices available: 1
-2022-06-07 10:15:18.827 Unity[4960:269197] 0: Apple M1 (high power)
-2022-06-07 10:15:18.827 Unity[4960:269197] Using device Apple M1 (high power)
+2022-06-07 12:11:06.280 Unity[7825:340733] (null) preferred device: Apple M1 (high power)
+2022-06-07 12:11:06.280 Unity[7825:340733] Metal devices available: 1
+2022-06-07 12:11:06.280 Unity[7825:340733] 0: Apple M1 (high power)
+2022-06-07 12:11:06.280 Unity[7825:340733] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56825
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000431 seconds.
+Registered in 0.001197 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
+- Completed reload, in  1.203 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1343ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1203ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (579ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (500ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005789 seconds.
+Registered in 0.002928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.028 seconds
+- Completed reload, in  1.949 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2031ms)
-		BeginReloadAssembly (273ms)
+	ReloadAssembly (1950ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
+			DisableScriptedObjects (30ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1667ms)
-			LoadAssemblies (201ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1620ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (894ms)
+			SetupLoadedEditorAssemblies (874ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (749ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003863 seconds.
+Validating Project structure ... 0.002284 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.003862 seconds.
+Upgrading shader files ...0.002669 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,521 +128,388 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-[C# Project] Writing /Users/aysegulbarlas/Thesis Demo/Thesis Demo.sln because it has changed
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Thesis Demo.sln because it has changed
 [C# Project] First difference on line 4
 
-[C# Project] Current /Users/aysegulbarlas/Thesis Demo/Thesis Demo.sln:
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Thesis Demo.sln:
 [C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{411B96EE-BE4F-0D45-CD44-DE0D76D12DCC}"
 [C# Project]   005: EndProject
 [C# Project]   006: Global
 [C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 [C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
 
-[C# Project] New /Users/aysegulbarlas/Thesis Demo/Thesis Demo.sln:
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Thesis Demo.sln:
 [C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{8B02DFD6-B784-A6CA-DA6D-8D6A6D7EE7DF}"
 [C# Project]   005: EndProject
 [C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{7A7319B0-AAFF-0618-8778-864691A6C412}"
 [C# Project]   007: EndProject
 [C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{B93A3500-FD93-FEEB-BF8F-EA437E97E629}"
-[C# Project] Writing /Users/aysegulbarlas/Thesis Demo/Assembly-CSharp.csproj because it has changed
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 394
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.TestRunner.csproj:
+[C# Project]   394:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   395:  </Reference>
+[C# Project]   396:  <Reference Include="netstandard">
+[C# Project]   397:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   398:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.TestRunner.csproj:
+[C# Project]   394:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   395:  </Reference>
+[C# Project]   396:  <Reference Include="netstandard">
+[C# Project]   397:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   398:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.Tests.csproj because it has changed
+[C# Project] First difference on line 344
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.Tests.csproj:
+[C# Project]   344:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   345:  </Reference>
+[C# Project]   346:  <Reference Include="netstandard">
+[C# Project]   347:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   348:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.Tests.csproj:
+[C# Project]   344:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   345:  </Reference>
+[C# Project]   346:  <Reference Include="netstandard">
+[C# Project]   347:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   348:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 353
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.csproj:
+[C# Project]   353:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Newtonsoft.Json">
+[C# Project]   356:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   357:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.csproj:
+[C# Project]   353:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Newtonsoft.Json">
+[C# Project]   356:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   357:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 368
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.csproj:
+[C# Project]   368:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Newtonsoft.Json">
+[C# Project]   371:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   372:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEngine.UI.csproj:
+[C# Project]   368:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Newtonsoft.Json">
+[C# Project]   371:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   372:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 342
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.csproj:
+[C# Project]   342:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Newtonsoft.Json">
+[C# Project]   345:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   346:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.csproj:
+[C# Project]   342:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Newtonsoft.Json">
+[C# Project]   345:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   346:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assembly-CSharp.csproj because it has changed
 [C# Project] First difference on line 636
 
-[C# Project] Current /Users/aysegulbarlas/Thesis Demo/Assembly-CSharp.csproj:
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assembly-CSharp.csproj:
 [C# Project]   636:  <Reference Include="Unity.VSCode.Editor">
-[C# Project]   637:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+[C# Project]   637:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
 [C# Project]   638:  </Reference>
 [C# Project]   639:  <Reference Include="Unity.TextMeshPro.Editor">
-[C# Project]   640:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+[C# Project]   640:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
 
-[C# Project] New /Users/aysegulbarlas/Thesis Demo/Assembly-CSharp.csproj:
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assembly-CSharp.csproj:
 [C# Project]   636:   </ItemGroup>
 [C# Project]   637:   <ItemGroup>
 [C# Project]   638:     <ProjectReference Include="Unity.VSCode.Editor.csproj">
 [C# Project]   639:       <Project>{8BA511D7-E01C-2088-6072-D36AF6DEE62C}</Project>
 [C# Project]   640:       <Name>Unity.VSCode.Editor</Name>
-2022-06-07 10:15:23.733 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003487cd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-06-07 10:15:23.736 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034f7560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Tests.csproj because it has changed
+[C# Project] First difference on line 275
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   275:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   276:  </Reference>
+[C# Project]   277:  <Reference Include="netstandard">
+[C# Project]   278:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   279:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   275:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   276:  </Reference>
+[C# Project]   277:  <Reference Include="netstandard">
+[C# Project]   278:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   279:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 442
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.TestRunner.csproj:
+[C# Project]   442:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   443:  </Reference>
+[C# Project]   444:  <Reference Include="mscorlib">
+[C# Project]   445:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   446:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.TestRunner.csproj:
+[C# Project]   442:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   443:  </Reference>
+[C# Project]   444:  <Reference Include="mscorlib">
+[C# Project]   445:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   446:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 592
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   592:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   593:  </Reference>
+[C# Project]   594:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   595:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   596:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   592:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   593:  </Reference>
+[C# Project]   594:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   595:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   596:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 320
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.csproj:
+[C# Project]   320:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Newtonsoft.Json">
+[C# Project]   323:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   324:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.csproj:
+[C# Project]   320:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Newtonsoft.Json">
+[C# Project]   323:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   324:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 372
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Services.Core.Editor.csproj:
+[C# Project]   372:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   373:  </Reference>
+[C# Project]   374:  <Reference Include="Newtonsoft.Json">
+[C# Project]   375:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   376:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Services.Core.Editor.csproj:
+[C# Project]   372:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   373:  </Reference>
+[C# Project]   374:  <Reference Include="Newtonsoft.Json">
+[C# Project]   375:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   376:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 542
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.Editor.csproj:
+[C# Project]   542:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Newtonsoft.Json">
+[C# Project]   545:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   546:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Timeline.Editor.csproj:
+[C# Project]   542:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Newtonsoft.Json">
+[C# Project]   545:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   546:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 322
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="nunit.framework">
+[C# Project]   325:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   326:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="nunit.framework">
+[C# Project]   325:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   326:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 331
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   331:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Newtonsoft.Json">
+[C# Project]   334:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   335:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   331:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Newtonsoft.Json">
+[C# Project]   334:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   335:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 426
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.Editor.csproj:
+[C# Project]   426:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   427:  </Reference>
+[C# Project]   428:  <Reference Include="Newtonsoft.Json">
+[C# Project]   429:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   430:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.Editor.csproj:
+[C# Project]   426:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   427:  </Reference>
+[C# Project]   428:  <Reference Include="Newtonsoft.Json">
+[C# Project]   429:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   430:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 287
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/DocCodeExamples.csproj:
+[C# Project]   287:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Newtonsoft.Json">
+[C# Project]   290:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   291:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/DocCodeExamples.csproj:
+[C# Project]   287:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Newtonsoft.Json">
+[C# Project]   290:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.EditorTests.csproj because it has changed
+[C# Project] First difference on line 298
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="nunit.framework">
+[C# Project]   301:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="nunit.framework">
+[C# Project]   301:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 315
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Rider.Editor.csproj:
+[C# Project]   315:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   316:  </Reference>
+[C# Project]   317:  <Reference Include="mscorlib">
+[C# Project]   318:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   319:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.Rider.Editor.csproj:
+[C# Project]   315:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   316:  </Reference>
+[C# Project]   317:  <Reference Include="mscorlib">
+[C# Project]   318:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.EditorTests.csproj because it has changed
+[C# Project] First difference on line 299
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   299:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   300:  </Reference>
+[C# Project]   301:  <Reference Include="mscorlib">
+[C# Project]   302:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   303:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   299:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   300:  </Reference>
+[C# Project]   301:  <Reference Include="mscorlib">
+[C# Project]   302:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.EditorTests.csproj because it has changed
+[C# Project] First difference on line 308
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   308:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   309:  </Reference>
+[C# Project]   310:  <Reference Include="mscorlib">
+[C# Project]   311:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   312:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   308:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   309:  </Reference>
+[C# Project]   310:  <Reference Include="mscorlib">
+[C# Project]   311:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   312:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 291
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VSCode.Editor.csproj:
+[C# Project]   291:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Newtonsoft.Json">
+[C# Project]   294:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   295:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.VSCode.Editor.csproj:
+[C# Project]   291:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Newtonsoft.Json">
+[C# Project]   294:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+[C# Project]   295:  </Reference>
+[C# Project] Writing /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/aysegulbarlas/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+
+[C# Project] New /Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/aysegulbarlas/Documents/GitHub/Bachelor-Thesis/Thesis Demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+2022-06-07 12:11:10.597 Unity[7825:340733] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000011ebe90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-06-07 12:11:10.600 Unity[7825:340733] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000011e7bf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 179.7 MB.
-
-Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 2.373166 ms (FindLiveObjects: 0.072708 ms CreateObjectMapping: 0.029167 ms MarkObjects: 1.879042 ms  DeleteObjects: 0.391625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/MeshSpawner.cs
-  artifactKey: Guid(8f44452c0e9ab440aa620cee49e039ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshSpawner.cs using Guid(8f44452c0e9ab440aa620cee49e039ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a9bcee08aed81a5c0bab7c4a203fff') in 0.384293 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002009 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:21:46.270 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034f7410 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2156ms)
-		BeginReloadAssembly (243ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (37ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (1820ms)
-			LoadAssemblies (195ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (997ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (779ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.3 MB.
-System memory in use after: 181.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 1.916916 ms (FindLiveObjects: 0.069542 ms CreateObjectMapping: 0.028875 ms MarkObjects: 1.793416 ms  DeleteObjects: 0.024333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:22:43.258 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034f71e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2086ms)
-		BeginReloadAssembly (252ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1746ms)
-			LoadAssemblies (224ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (945ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (747ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.5 MB.
-System memory in use after: 181.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 1.865541 ms (FindLiveObjects: 0.067917 ms CreateObjectMapping: 0.028833 ms MarkObjects: 1.744250 ms  DeleteObjects: 0.023792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001560 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:22:56.990 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034a09a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.127 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2128ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1843ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1038ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.6 MB.
-System memory in use after: 181.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 1.982375 ms (FindLiveObjects: 0.071375 ms CreateObjectMapping: 0.033792 ms MarkObjects: 1.856083 ms  DeleteObjects: 0.020500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:23:12.933 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034aa3e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.250 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2251ms)
-		BeginReloadAssembly (240ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1923ms)
-			LoadAssemblies (271ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1056ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (860ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.8 MB.
-System memory in use after: 181.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2001.
-Total: 2.162208 ms (FindLiveObjects: 0.089416 ms CreateObjectMapping: 0.030917 ms MarkObjects: 2.013208 ms  DeleteObjects: 0.027708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001911 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:24:33.812 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034a9dc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.112 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2113ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1788ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (963ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (759ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.0 MB.
-System memory in use after: 182.1 MB.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 179.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2003.
-Total: 1.844209 ms (FindLiveObjects: 0.081583 ms CreateObjectMapping: 0.028958 ms MarkObjects: 1.712250 ms  DeleteObjects: 0.020625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003623 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:25:17.303 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000034f2f40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.061 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2062ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1756ms)
-			LoadAssemblies (222ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (938ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (736ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.2 MB.
-System memory in use after: 182.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2005.
-Total: 1.855625 ms (FindLiveObjects: 0.058958 ms CreateObjectMapping: 0.029375 ms MarkObjects: 1.747834 ms  DeleteObjects: 0.018916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001960 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:27:08.867 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003497640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2127ms)
-		BeginReloadAssembly (207ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1828ms)
-			LoadAssemblies (236ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (969ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (771ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.3 MB.
-System memory in use after: 182.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2007.
-Total: 1.982709 ms (FindLiveObjects: 0.072083 ms CreateObjectMapping: 0.030208 ms MarkObjects: 1.857250 ms  DeleteObjects: 0.022417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 10:27:53.036 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003497640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2130ms)
-		BeginReloadAssembly (250ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1789ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (983ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (776ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.5 MB.
-System memory in use after: 182.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2009.
-Total: 1.882583 ms (FindLiveObjects: 0.075125 ms CreateObjectMapping: 0.028875 ms MarkObjects: 1.754166 ms  DeleteObjects: 0.023666 ms)
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.277084 ms (FindLiveObjects: 0.066125 ms CreateObjectMapping: 0.029459 ms MarkObjects: 1.805250 ms  DeleteObjects: 0.375625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -656,65 +523,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4222.467333 seconds.
   path: Assets/MeshSpawner.cs
   artifactKey: Guid(8f44452c0e9ab440aa620cee49e039ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshSpawner.cs using Guid(8f44452c0e9ab440aa620cee49e039ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5f233f53db2f36047390e8bc00846d') in 0.067392 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001402 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-06-07 11:54:41.458 Unity[4960:269197] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003494620 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.283 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2285ms)
-		BeginReloadAssembly (323ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (111ms)
-		EndReloadAssembly (1862ms)
-			LoadAssemblies (254ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1004ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (164ms)
-				ProcessInitializeOnLoadAttributes (796ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.7 MB.
-System memory in use after: 182.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 3.280792 ms (FindLiveObjects: 0.078875 ms CreateObjectMapping: 0.029084 ms MarkObjects: 3.133250 ms  DeleteObjects: 0.038875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/MeshSpawner.cs using Guid(8f44452c0e9ab440aa620cee49e039ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d707ce3b45f5f28e44ce88959c50f4') in 0.195832 seconds 

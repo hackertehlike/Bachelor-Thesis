@@ -13,7 +13,7 @@ public class MeshSpawner : MonoBehaviour
     public List<HouseMesh> meshList;
     UnityMesh unityMesh;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         string jsonFilePath = @"Assets/0a9c667d-033d-448c-b17c-dc55e6d3c386.json";
@@ -36,19 +36,23 @@ public class MeshSpawner : MonoBehaviour
         HouseMesh houseMesh = meshList[meshIndex];
 
         // Read the mesh's vertices and faces and uv coordinates
+
         List<double> verticesList = houseMesh.xyz;
         Vector3[] vertices = ListToVec3Array(verticesList);
-        // List<double> uvList = houseMesh.uv;
-        // Vector2[] uv = ListToVec2Array(uvList);
+        List<double> uvList = houseMesh.uv;
+        Vector2[] uv = ListToVec2Array(uvList);
 
         // Read the mesh's face indices
+
         int[] triangles = houseMesh.faces.ToArray();
 
         // Read the mesh's normals
-        // List<double> normalsList = houseMesh.normal;
-        // Vector3[] normals = ListToVec3Array(normalsList);
+
+        List<double> normalsList = houseMesh.normal;
+        Vector3[] normals = ListToVec3Array(normalsList);
 
         // Create the mesh
+        
         unityMesh = new UnityMesh();
         mf.GetComponent<MeshFilter>().mesh = unityMesh;
         unityMesh.vertices = vertices;
