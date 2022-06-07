@@ -22,4 +22,4 @@ print(furniture)
 for item in furniture:
     print(item)
     # retrieve the directory with the same name from "/T7/3D-Future-model" and copy it into the new directory "house_furniture"
-    os.system("cp -r 3D-FUTURE-model/" + item + " ~/house_furniture2")
+    os.system("cp -r 3D-FUTURE-model/" + item + " ~/house_furniture_" + filename)
